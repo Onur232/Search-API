@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+
+<title>Twitter Search Engine</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- oluşturulan css dosyası -->
+<link href="../css/spring-core.css"
+		th:href="@{css/spring-core.css}" rel="stylesheet" media="screen"/>
+
+
+
+</head>
+<body>
+
+<div class="container">
+
+	<h2>Write text to input below for searching at twitter.</h2>
+
+	<form action="/searchTwitter" method="GET">
+	<label for="queryString">Write text here!</label><input type="text" name="queryString" />
+	<input type="submit" value="submit" />
+	</form>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html  lang="eng" xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Spring Core Online Tutorial -List Products</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- oluşturulan css dosyası -->
+<link href="../css/spring-core.css"
+		th:href="@{css/spring-core.css}" rel="stylesheet" media="screen"/>
+
+
+
+</head>
+<body>
+
+<div class="container">
+	<div th:if="${not #lists.isEmpty(tweets)}">
+		<h2>Tweet List</h2>
+		<table class="table table-striped">
+			<tr>
+				<th>Id</th>
+				<th>Created At</th>
+				<th>Text</th>
+			</tr>
+			<tr th:each="tweet : ${tweets}">
+				<td th:text="${tweet.id}"></td>
+				<td th:text="${tweet.createdAt}"></td>
+				<td th:text="${tweet.text}"></td>
+			</tr>
+		</table>
+	</div>
+</div>
+
+</body>
+</html>
