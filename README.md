@@ -21,7 +21,8 @@ Just execute jar file and go to URIs stated in "Running the tests" part of this 
 
 ## Running the tests 
 
-There is a jar file created by maven build called "searchapi-0.0.1-SNAPSHOT.jar" in \searchapi\target location. This file must be executed for testing.
+There is a jar file created by maven build called "searchapi-0.0.1-SNAPSHOT.jar" in \searchapi\target location. This file must be executed for testing. But due to constraints by github, it's not allowed to upload a jar file bigger then 25MB. So I uploaded zipped 
+file of this JAR file called "searchapi-0.0.1-SNAPSHOT.jar.7z" in main branch of this project. This file must be unzipped and executed to use software.
 
 There are two tests for testing Search API;
 
