@@ -60,7 +60,6 @@ The output of software has created as JAR by Maven build. It can be built as WAR
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
@@ -69,7 +68,6 @@ No versioning.
 ## Authors
 
 * **Onur Tas** - *Initial work* - (https://github.com/Onur232)
-
 
 
 ## License
