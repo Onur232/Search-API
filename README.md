@@ -4,7 +4,7 @@ An example project for making search at various social media sites.
 
 ## Getting Started
 
-The jar files created by this projects is used to get Rest response and show them as JSON objects in browser.
+The jar file created by this projects is used to get Rest response and show them as JSON objects in browser.
 
 ### Prerequisites
 
