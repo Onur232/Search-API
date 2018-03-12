@@ -49,7 +49,7 @@ show in XML or any other format. Other details can be understood from source cod
 
 ## Deployment
 
-The output of software has created as JSON by Maven build. It can be built as WAR also. No need to deployment. Its just enough to execute jar file and go to URI's that stated at 
+The output of software has created as JAR by Maven build. It can be built as WAR also. No need to deployment. Its just enough to execute JAR file and go to URI's that stated at 
 "Running the tests" section of this document.
 
 ## Built With
