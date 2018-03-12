@@ -19,7 +19,9 @@ All dependencies will be inserted in jar file automatically.
 
 Just execute jar file and go to URIs stated in "Running the tests" part of this document. 
 
-## Running the tests
+## Running the tests 
+
+There is a jar file created by maven build called "searchapi-0.0.1-SNAPSHOT.jar" in \searchapi\target location. This file must be executed for testing.
 
 There are two tests for testing Search API;
 
