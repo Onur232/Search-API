@@ -42,7 +42,7 @@ public class InstagramSearchService {
 //			WebResource webResource = client.resource("https://jsonplaceholder.typicode.com/albums");
 			//yukardaki adres sample json çıktısı veriyor.
 			String userId="351564405";
-			String endpointString = "https://api.instagram.com/v1/users/self/?access_token=374821115.9e13599.fdc4e7cc8ee842cc89587529c50f0624";
+			String endpointString = "https://api.instagram.com/v1/users/self/?access_token=f0624";
 			
 			WebResource webResource = client.resource(endpointString);
 
