@@ -21,10 +21,10 @@ import twitter4j.conf.ConfigurationBuilder;
 @Service
 public class TweetSearchService {
 	
-	private static final String CONSUMER_KEY = "IVzxUXVimWLQLD1dOkWzq0chn";
-	private static final String CONSUMER_SECRET = 	"I5rlrrpeDPtOeFdcVHkx7OvHp2kyHfT8w79J6tZshqrkNIqQK3";
-	private static final String ACCESS_TOKEN = "936847519400714240-NLkThzLK1jjIQ0ZqyYRXe83LdSKLMTU";
-	private static final String ACCESS_TOKEN_SECRET = "LlTTZfHaOvIDB4BkrJBsTpVugU9p9QekqYx7QJk79Pr1r";
+	private static final String CONSUMER_KEY = "q0chn";
+	private static final String CONSUMER_SECRET = 	"shqrkNIqQK3";
+	private static final String ACCESS_TOKEN = "q0chn";
+	private static final String ACCESS_TOKEN_SECRET = "q0chn";
 
 //	private TweetRepository tweetRepository;
 //	
