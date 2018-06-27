@@ -57,6 +57,7 @@ The output of software has created as JAR by Maven build. It can be built as WAR
 
 * [Spring Boot](https://projects.spring.io/spring-boot/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
+* twitter4j
 
 
 ## Contributing
